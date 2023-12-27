@@ -48,7 +48,7 @@ finalHeader();
         Type: <?= $_GET['filter'] ?? 'All' ?>
         </button>
         <?php
-            if ($isAdmin) {
+            if ($logged && $isAdmin) {
         ?>
                 <a href="create.php" class="btn btn-primary">
                     Create new card
