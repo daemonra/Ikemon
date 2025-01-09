@@ -1,0 +1,190 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+section {
+    margin: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+@keyframes oceanAnimation {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 0% 100%;
+    }
+}
+
+.userdata-dis {
+    margin: 0;
+    padding: 20px;
+    background-color: #2196F3;
+    color: #fff;
+}
+
+.list-inline-item:not(:last-child) {
+    margin-right: 1.5rem;
+}
+
+.card {
+    margin: 30px;
+    position: relative;
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3);
+    transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+                box-shadow 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card.fire {
+    background-color: #651818;
+}
+
+.card.grass {
+    background-color: #278827;
+}
+
+.card.electric {
+    background-color: #92900d;
+}
+
+.card.bug {
+    background-color: #9a6400;
+}
+
+.card.water {
+    background-color: #246085;
+}
+
+.card.normal {
+    background-color: #454312;
+}
+
+.card.poison {
+    background-color: #5a1865;
+}
+
+.card:hover {
+    transform: scale(1.1) rotate(10deg);
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.7);
+}
+
+.card:hover {
+    opacity: 0.9;
+}
+
+.card:hover .card-image {
+    transform: scale(1.2);
+}
+
+
+.card-image {
+    height: 60%;
+    background-image: url('https://insideclimatenews.org/wp-content/uploads/2023/01/ocean_brian-bielmann-afp-getty-scaled.jpg'); 
+    background-size: contain;
+    background-position: center;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    animation: pulse 2s infinite alternate;
+}
+
+.template-image {
+    background-image: url('./template.jpg') !important; 
+}
+
+.image-Pikachu {
+    background-image: url('https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png') !important; 
+}
+
+
+@keyframes pulse {
+    to {
+        transform: scale(1.1);
+    }
+}
+
+.card-text {
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    transition: transform 0.3s ease-in-out;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.card:hover .card-text {
+    transform: translate(0, -10px);
+}
+
+.card-text h2 {
+    color: #fff;
+    margin: 0;
+    font-size: 24px;
+}
+
+.card-text p {
+    color: #fff;
+    margin: 10px 0 0;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+
+
+.card:hover .card-text {
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.card-image {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.plus-padding {
+    padding: 5px 0;
+}
+
+footer {
+    padding: 60px;
+    background-color: #1a1d20;
+    color: white;
+}
