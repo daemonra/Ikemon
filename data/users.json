@@ -1,0 +1,30 @@
+{
+    "admin": {
+        "username": "admin",
+        "email": "",
+        "password": "admin",
+        "money": 0,
+        "cards": 0
+    },
+    "deaa": {
+        "username": "deaa",
+        "email": "deaa@gmail.com",
+        "password": "deaa",
+        "money": 46,
+        "cards": 1
+    },
+    "u3k8ft": {
+        "username": "u3k8ft",
+        "email": "u3k8ft@inf.elte.hu",
+        "password": "12345678",
+        "money": 1658.7999999999997,
+        "cards": 1
+    },
+    "a63bzh": {
+        "username": "a63bzh",
+        "email": "a63bzh@inf.elte.hu",
+        "password": "12341234",
+        "money": 824,
+        "cards": 1
+    }
+}
